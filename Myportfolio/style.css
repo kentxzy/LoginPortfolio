@@ -1,0 +1,56 @@
+
+@keyframes idleFloat {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-6px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+    
+}
+
+.bento-card {
+    border-radius: 20px;
+    animation: idleFloat 6.5s ease-in-out infinite;
+    will-change: transform;
+}
+
+
+.bento-card:nth-child(1) { animation-delay: 0s; }
+.bento-card:nth-child(2) { animation-delay: 1s; }
+.bento-card:nth-child(3) { animation-delay: 2s; }
+.bento-card:nth-child(4) { animation-delay: 3s; }
+.bento-card:nth-child(5) { animation-delay: 4s; }
+
+
+.bento-card:hover {
+    animation-play-state: paused;
+    transform: translateY(-6px);
+}
+
+
+
+#home {
+    height: 100vh;
+    background: linear-gradient(to right, #0d6efd, #6610f2);
+    color: white;
+    margin-bottom: 70px;
+    animation: fadeUp 1s ease forwards;
+}
+
+#skills .progress {
+    height: 25px;
+    margin-bottom: 20px;
+}
+
+.card {
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+section {
+    padding: 80px 0;
+}
+
