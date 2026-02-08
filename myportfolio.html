@@ -1,33 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> My Portfolio </title>
-    <script defer src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-     <link rel="stylesheet" href="style2.css" />
+    <script defer src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="style2.css" />
 </head>
+
 <body>
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <div class="container">
-            <a class="navbar-brand" href="0"> MyPortfolio </a>
+            <a class="navbar-brand" href="#home"> MyPortfolio </a>
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            
+
             <div class="collapse navbar-collapse" id="navMenu">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item"><a class="nav-link" href="#home"> Home </a></li>
                     <li class="nav-item"><a class="nav-link" href="#about"> About </a></li>
+                    <li class="nav-item"><a class="nav-link" href="#hobbies"> Hobbies </a></li>
                     <li class="nav-item"><a class="nav-link" href="#skills"> Skills </a></li>
                     <li class="nav-item"><a class="nav-link" href="#projects"> Projects </a></li>
                     <li class="nav-item"><a class="nav-link" href="#contact"> Contact </a></li>
                 </ul>
+                <a class="btn btn-danger ms-lg-3 px-4" href="index.html" style="border-radius: 20px;">Logout</a>
             </div>
+        </div>
         </div>
     </nav>
 
@@ -38,6 +46,7 @@
             <br>
             <h1> Hello, I'm Kenneth Karl</h1>
             <p class="lead"> Aspiring Web Developer focused on clean UI, responsive design, and practical systems </p>
+            <br>
             <a href="#projects" class="btn btn-light"> View My Work</a>
         </div>
     </section>
@@ -50,14 +59,18 @@
                 <div class="col-lg-6">
                     <br>
                     <br>
-                    <img src="assests/e3611c71-dfe7-4c99-b5c0-4f174b3d0ef5.jfif" alt="Profile Picture" class="img-fluid rounded">
+                    <img src="assests/e3611c71-dfe7-4c99-b5c0-4f174b3d0ef5.jfif" alt="Profile Picture"
+                        class="img-fluid rounded">
                 </div>
                 <div class="col-lg-6">
                     <h2> About Me </h2>
                     <p>
-                        I'm Kenneth Karl Rato, a dedicated student at the University of Mindanao pursuing a Bachelor of Science in Information Technology. 
-                        My passion lies in web development, where I strive to create clean and responsive user interfaces. 
-                        I am committed to continuous learning and practical application of my skills to build effective systems.
+                        I'm Kenneth Karl Rato, a dedicated student at the University of Mindanao pursuing a Bachelor of
+                        Science in Information Technology.
+                        My passion lies in web development, where I strive to create clean and responsive user
+                        interfaces.
+                        I am committed to continuous learning and practical application of my skills to build effective
+                        systems.
                         Currently, I focus on improving my front-end skills while building practical academic
                         and personal projects.
                     </p>
@@ -66,144 +79,171 @@
         </div>
     </section>
 
-    <!-- Skills -->
-    <section id="skills">
-        <div class="container text-center">
+    <!-- HOBBIES -->
+    <section id="hobbies" class="bg-light">
+        <div class="container">
+            <div class="text-center mb-5">
+                <br>
+                <br>
+                <h2>Hobbies & Interests</h2>
+                <p class="text-muted">
+                    Activities that inspire my creativity, discipline, and problem-solving mindset
+                </p>
+            </div>
 
-            <!-- mb stands for margin button-->
-             <br>
-             <br>
-            <h2 class="mb-5"> My Skills </h2>
-            
-            <div class="row">
-                <div class="col-lg-3 ">
-                    <!-- p stands for padding-->
-                    <div class="card p-3">  <strong>HTML</strong></div>
-                     <small class="text-muted d-block">Semantic structure</small>
+            <div class="row g-4 bento-grid">
+
+                <div class="col-md-6">
+                    <div class="card bento-card p-4 h-100">
+                        <h5>Coding & Learning</h5>
+                        <p class="text-muted">
+                            I enjoy practicing web development concepts, exploring UI layouts,
+                            and improving my coding skills through personal and academic projects.
+                        </p>
+                    </div>
                 </div>
+
                 <div class="col-md-3">
-                    <div class="card p-3" > <strong>CSS</strong></div>
-                     <small class="text-muted d-block">Styling and layout</small>
+                    <div class="card bento-card p-4 h-100">
+                        <h5>Gaming</h5>
+                        <p class="text-muted">
+                            Strategy and problem-solving games that enhance critical thinking.
+                        </p>
+                    </div>
                 </div>
-                <div class="col-md-3"> 
-                    <div class="card p-3"><strong>Bootstrap</strong></div>
-                     <small class="text-muted d-block">Responsive design</small>
-                </div>
+
                 <div class="col-md-3">
-                    <div class="card p-3"> <strong>JavaScript</strong></div>
-                     <small class="text-muted d-block">Interactive functionality</small>
-                </div>                 
-            </div>    
+                    <div class="card bento-card p-4 h-100">
+                        <h5>Self-Learning</h5>
+                        <p class="text-muted">
+                            Reading tech articles and watching tutorials to stay curious.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card bento-card p-4 h-100">
+                        <h5>Music</h5>
+                        <p class="text-muted">
+                            Listening to music while working to stay focused and creative.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-8">
+                    <div class="card bento-card p-4 h-100">
+                        <h5>Problem Solving</h5>
+                        <p class="text-muted">
+                            I enjoy breaking down problems logically, whether in coding,
+                            system design, or daily challenges.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
         </div>
     </section>
 
-    <!-- HOBBIES -->
-<section id="hobbies" class="bg-light">
-    <div class="container">
-        <div class="text-center mb-5">
-            <br>
-            <br>
-            <h2>Hobbies & Interests</h2>
-            <p class="text-muted">
-                Activities that inspire my creativity, discipline, and problem-solving mindset
-            </p>
+    <!-- Skills -->
+    <section id="skills" class="py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2>My Skills</h2>
+                <p class="text-muted">Technologies and tools I use to bring ideas to life</p>
+            </div>
+
+            <div class="row g-4">
+                <div class="col-md-6">
+                    <div class="card bento-card p-4 h-100">
+                        <h5>Web Foundation</h5>
+                        <p class="text-muted">Mastering <strong>HTML5 & CSS3</strong> to create structured, semantic,
+                            and beautiful web interfaces.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="card bento-card p-4 h-100">
+                        <h5>JavaScript</h5>
+                        <p class="text-muted">Adding interactivity and dynamic behavior to sites.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="card bento-card p-4 h-100">
+                        <h5>Bootstrap</h5>
+                        <p class="text-muted">Building mobile-first responsive layouts fast.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card bento-card p-4 h-100">
+                        <h5>SQL & Data</h5>
+                        <p class="text-muted">Designing and managing relational databases.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-8">
+                    <div class="card bento-card p-4 h-100">
+                        <h5>Java & Programming</h5>
+                        <p class="text-muted">Understanding core logic, OOP principles, and system-level development
+                            through academic and personal practice.</p>
+                    </div>
+                </div>
+            </div>
         </div>
-
-        <div class="row g-4 bento-grid">
-
-            <div class="col-md-6">
-                <div class="card bento-card p-4 h-100">
-                    <h5>💻 Coding & Learning</h5>
-                    <p class="text-muted">
-                        I enjoy practicing web development concepts, exploring UI layouts,
-                        and improving my coding skills through personal and academic projects.
-                    </p>
-                </div>
-            </div>
-
-            <div class="col-md-3">
-                <div class="card bento-card p-4 h-100">
-                    <h5>🎮 Gaming</h5>
-                    <p class="text-muted">
-                        Strategy and problem-solving games that enhance critical thinking.
-                    </p>
-                </div>
-            </div>
-
-            <div class="col-md-3">
-                <div class="card bento-card p-4 h-100">
-                    <h5>📚 Self-Learning</h5>
-                    <p class="text-muted">
-                        Reading tech articles and watching tutorials to stay curious.
-                    </p>
-                </div>
-            </div>
-
-            <div class="col-md-4">
-                <div class="card bento-card p-4 h-100">
-                    <h5>🎧 Music</h5>
-                    <p class="text-muted">
-                        Listening to music while working to stay focused and creative.
-                    </p>
-                </div>
-            </div>
-
-            <div class="col-md-8">
-                <div class="card bento-card p-4 h-100">
-                    <h5>🧠 Problem Solving</h5>
-                    <p class="text-muted">
-                        I enjoy breaking down problems logically, whether in coding,
-                        system design, or daily challenges.
-                    </p>
-                </div>
-            </div>
-
-        </div>
-    </div>
-</section>
+    </section>
 
 
     <!--PROJECTS-->
 
-    <section id="projects" class="py-5">
-        <div class="container text-center">
-            <h2 class="mb-4"> My Projects </h2>
+    <section id="projects" class="py-5 bg-light">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2>Recent Projects</h2>
+            </div>
 
-            <div class="row">
-                <div class="col-md-4 mb-3">
-                    <div class="card">
-                        <img src="https://picsum.photos/300" class="card-img-top">
-                        <div class="card-body">
-                            <h5 class="card-title"> Personal Portfolio Website </h5>
-                            <p class="card-text"> A responsive personal website built using HTML, CSS, and Bootstrap
-                            to showcase my skills and academic projects. </p>
+            <div class="row g-4">
+                <div class="col-md-8">
+                    <div class="card bento-card h-100 overflow-hidden">
+                        <img src="assests/Flag_of_Davao_City.png" class="card-img-top"
+                            style="height: 250px; object-fit: cover;">
+                        <div class="card-body p-4">
+                            <h5 class="card-title">Barangay Complaints Filing & Appointments Scheduling System</h5>
+                            <p class="card-text text-muted">A full-stack solution to streamline community appointments
+                                using HTML and SQL.</p>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-md-4 mb-3">
-                    <div class="card">
-                        <img src="https://picsum.photos/300" class="card-img-top">
-                        <div class="card-body">
-                            <h5 class="card-title"> Student Information Page </h5>
-                            <p class="card-text"> A simple web layout demonstrating responsive design and clean UI principles. </p>
+                <div class="col-md-4">
+                    <div class="card bento-card h-100 overflow-hidden">
+                        <div class="card-body p-4">
+                            <h5 class="card-title">Vending Machine DB</h5>
+                            <p class="card-text text-muted small">Managing inventory and transactions through optimized
+                                SQL queries.</p>
+                            <img src="assests/bwink_f_d_01_single_11.jpg" class="img-fluid rounded mt-3">
                         </div>
                     </div>
                 </div>
 
-
-                <div class="col-md-4 mb-3">
-                    <div class="card">
-                        <img src="https://picsum.photos/300" class="card-img-top">
-                        <div class="card-body">
-                            <h5 class="card-title"> University Projects </h5>
-                            <p class="card-text"> More upcoming university project showcasing my skills in web development and design. </p>
+                <div class="col-md-12">
+                    <div class="card bento-card p-4">
+                        <div class="row align-items-center">
+                            <div class="col-md-2">
+                                <img src="assests/idtgHrJmGl_logos.png" class="img-fluid rounded">
+                            </div>
+                            <div class="col-md-10">
+                                <h5>University Lab Collection</h5>
+                                <p class="text-muted mb-0">A repository of various academic projects showcasing my
+                                    growth in IT and programming.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
 
     <!-- CONTACT ME -->
     <section id="contact" class="bg-dark text-white py-5">
@@ -211,7 +251,7 @@
             <h2 class="mb-4"> Contact Me </h2>
             <p> Feel free to reach out to me at:</p>
             <p> Email: k.rato.555323@umindanao.edu.ph </p>
-           <p>🔐 <a href="https://github.com/kentxzy" class="text-white">github.com/kentxzy</a></p>
+            <p>🔐 <a href="https://github.com/kentxzy" class="text-white">github.com/kentxzy</a></p>
         </div>
     </section>
 
@@ -221,4 +261,5 @@
     </footer>
 
 </body>
+
 </html>
